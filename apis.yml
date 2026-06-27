@@ -72,7 +72,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.homelight.com/api_docs/partners
-      - type: SignUp
+      - type: Signup
         url: mailto:support@homelight.com
 common:
   - type: Website

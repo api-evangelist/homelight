@@ -2,17 +2,17 @@
   "repo": "homelight",
   "feeds": [
     {
-      "source": "https://www.homelight.com/blog",
+      "source": "https://www.homelight.com/blog/feed/",
       "feed_url": "https://www.homelight.com/blog/feed/",
       "title": "",
-      "saved": 47,
-      "method": "discovered"
+      "saved": 50,
+      "method": "feed"
     },
     {
       "source": "https://www.homelight.com/contact",
       "error": "HTTPError"
     }
   ],
-  "post_count": 47,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 97,
+  "fetched": "2026-06-27T12:03:07Z"
 }
