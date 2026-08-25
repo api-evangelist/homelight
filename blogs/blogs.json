@@ -5,7 +5,7 @@
       "source": "https://www.homelight.com/blog/feed/",
       "feed_url": "https://www.homelight.com/blog/feed/",
       "title": "",
-      "saved": 50,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -13,6 +13,6 @@
       "error": "HTTPError"
     }
   ],
-  "post_count": 337,
-  "fetched": "2026-08-15T12:11:08Z"
+  "post_count": 385,
+  "fetched": "2026-08-22T20:20:02Z"
 }
