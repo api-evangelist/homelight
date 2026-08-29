@@ -24,6 +24,17 @@ description: >-
   commercial relationship, and there is no public OpenAPI spec, SDK, or
   open-source client published by the company.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
