@@ -50,7 +50,7 @@ position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homelight.png
 tags:
-  - Real-Estate
+  - Real Estate
   - PropTech
   - Agent Matching
   - Cash Offers
@@ -81,6 +81,7 @@ tags_raw:
   - Partner API
   - Mortgage
   - Residential Real Estate
+  - Real-Estate
 url: https://raw.githubusercontent.com/api-evangelist/homelight/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
@@ -100,7 +101,6 @@ apis:
       Sale lead submission (`POST /leads/partner_simple_sale_lead`),
       and duplicate-lead check (`POST /api/partner_dupe_lead_check`).
     humanURL: https://www.homelight.com/api_docs/partners
-    baseURL: https://www.homelight.com
     tags:
       - Leads
       - Partner API
