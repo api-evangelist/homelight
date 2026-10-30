@@ -1,4 +1,4 @@
-# homelight
+# HomeLight
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HomeLight — agent matching, Simple Sale cash offers, Buy Before You Sell, home loans, and closing services, with a gated Partner API for lead submission.
+HomeLight is a San Francisco–based real-estate technology company that matches home buyers and sellers with top-performing local real-estate agents and operates a stack of consumer-facing products that span the entire residential transaction: agent matching, Simple Sale cash-offer marketplace, Buy Before You Sell (BBYS) bridge financing, HomeLight Home Loans (NMLS #1529229), the HomeLight HELOC Card, and HomeLight Closing Services for title and escrow. The company ranks agents using historical performance data on home sales (price, speed, volume, geography, property type) and routes consumer leads to a curated network of agents, lenders, and cash-buyer investors. HomeLight exposes a private Partner API to lenders, brokerages, CRMs, and marketing partners (NerdWallet is its largest partner) for submitting leads (`/api/partner_lead/v2`), Simple Sale seller leads (`/leads/partner_simple_sale_lead`), and duplicate-lead checks (`/api/partner_dupe_lead_check`); credentials are issued on a per-partner basis via support@homelight.com. Beyond the Partner API, HomeLight has direct integrations with most major real-estate agent CRMs (Follow Up Boss, BoomTown, Sierra Interactive, Firepoint, Real Geeks, Brivity, Chime, LionDesk, KW Command). HomeLight has no public, self-service developer portal — the Partner API is gated by a commercial relationship, and there is no public OpenAPI spec, SDK, or open-source client published by the company.
+
+**Areas:** Real Estate · PropTech · Agent Matching · Cash Offers · iBuyer · Bridge Loans · Buy Before You Sell · Home Loans · HELOC · Title and Escrow · Closing Services · Lead Generation
+
+## HomeLight on APIs.io
+
+Everything profiled for HomeLight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/homelight/](https://apis.io/providers/homelight/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [HomeLight Partner API](https://apis.io/apis/homelight/homelight-partner-api/) — Partner-gated REST API for submitting buyer and seller leads to HomeLight, submitting Simple Sale cash-offer seller leads, and checking for duplicate leads…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Homelight Domain Security](https://apis.io/security/homelight/homelight-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.homelight.com)
+- [Blog](https://www.homelight.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/homelight/](https://apis.io/providers/homelight/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HomeLight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/homelight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
